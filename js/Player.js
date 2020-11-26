@@ -17,7 +17,7 @@ class Player {
       playerCount: count
     });
   }
-
+  
   update(){
     var playerIndex = "players/player" + this.index;
     database.ref(playerIndex).set({
